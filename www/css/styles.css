@@ -165,9 +165,94 @@ header nav ul li:hover a {
 	background: #A8D5EA;
 	border: 2px solid #FFFFFF;
 	border-radius: 10px;
-}
-/** CONTENT **/
-content {
 	padding-top: 30px;
+	padding-left: 18px;
+	color: #1E7BA6;
+	font-size: 20px;
+	line-height: 36px;
+}
+	.contacts-icon {
+		position: absolute;
+		top: 18px;
+		left: 15px;
+		height: 48px;
+		width: 49px;
+	}
+	.contacts-email {
+		height: 83px;
+		width: 300px;
+		background: url('../images/contacts-email.png') repeat-x 0 0;
+		border-radius: 5px;
+		margin-bottom: 23px;
+		position: relative;
+		padding-left: 90px;
+		padding-top: 25px;
+	}
+		.contacts-email > .contacts-icon {
+			background: url('../images/contacts-email-icon.png') repeat-x 0 0;
+		}
+	.contacts-phones {
+		height: 163px;
+		width: 300px;
+		background: url('../images/contacts-phones.png') repeat-x 0 0;
+		border-radius: 5px;
+		position: relative;
+		padding-left: 80px;
+		padding-top: 25px;
+	}
+		.contacts-phones > .contacts-icon {
+			background: url('../images/contacts-phones-icon.png') repeat-x 0 0;
+		}
+/** CONTENT **/
+.content {
+	padding-top: 30px;
+	margin-bottom: 55px;
 }
 /** FOOTER **/
+footer {
+	height: 165px;
+	background-color: #008DBC;
+	color: #FFFFFF;
+	padding-top: 30px;
+	font-size: 20px;
+}
+footer .inner {
+	position: relative;
+	height: 135px;
+}
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 30px;
+}
+footer .copyright {
+	line-height: 30px;
+}
+footer .sotrudnichestvo {
+	position: absolute;
+	top: 0;
+	right: 300px;
+	width: 175px;
+}
+footer .sotrudnichestvo-phones {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	width: 250px;
+}
+footer .to-up {
+	position: absolute;
+	top: -10px;
+	right: 20px;
+	width: 30px;
+	height: 26px;
+	background: url('../images/to-up.png') no-repeat 0 0;
+	cursor: pointer;
+}
+footer .dop-info {
+	position: absolute;
+	bottom: 20px;
+	left: 200px;
+	font-style: italic;
+	font-size: 14px;
+}
