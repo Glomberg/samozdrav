@@ -6,7 +6,10 @@ get_header(); ?>
 <?php slider(); ?>
 	<div class="content">
 		<div class="inner">
-			<?php iinclude_page(33); ?>
+		<article class="big-page">
+			<h2><?php the_title(); ?></h2>
+			<section style="min-height: 0; padding: 0;">
+				<?php iinclude_page(33); ?>
 <script>
 	$(document).ready(function(){
 		$("header li.menu-3").addClass("active");

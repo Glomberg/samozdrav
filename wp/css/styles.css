@@ -256,12 +256,18 @@ header nav ul li:hover a, header nav ul li.active a {
 		width: 170px;
 		height: 215px;
 	}
-	article section p {
+	article section p{
 		color: #767676;
 		font-size: 18px;
 		line-height: 22px;
 	}
 	article section.single p {
+		font-family: "Calibri",sans-serif;
+		color: black;
+	}
+	.big-page {
+		font-size: 18px;
+		line-height: 22px;
 		font-family: "Calibri",sans-serif;
 		color: black;
 	}
@@ -516,3 +522,159 @@ textarea:focus,
 	#commentform #submit:hover {
 		opacity: 0.75;
 	}
+/* ОФОРМЛЕНИЕ ЗАКАЗА */
+#zakaz table *{
+	color: #1F6E99;
+	font-size: 20px;
+}
+#zakaz table{
+	margin-bottom: 25px;
+}
+#zakaz table td {
+	vertical-align: middle;
+}
+#zakaz table input,
+#zakaz table img,
+#zakaz table span {
+	display: inline-block;
+	vertical-align: middle;
+}
+#zakaz table span {
+	line-height: 26px;
+}
+#zakaz table img {
+	height: 100px;
+}
+#zakaz table td {
+	padding-top: 20px;
+}
+#zakaz table th {
+	text-align: left;
+	padding-top: 20px;
+}
+#zakaz table .zakaz-summa {
+	color: #FF2B47;
+	font-size: 32px;
+	font-weight: bold;
+}
+#zakaz table .i {
+	width: 25px;
+	height: 25px;
+	border: 1px solid #FF2B47;
+	border-radius: 1111px;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: middle;
+	font-size: 24px;
+	color: #FF2B47;
+	cursor: pointer;
+}
+#zakaz table .zakaz-value {
+	width: 82px;
+	height: 25px;
+	border: 1px solid #38A1BE;
+	text-align: right;
+}
+#zakaz table input[type=checkbox], #zakaz table input[type=radio] {
+	display: none;
+}
+#zakaz table .complex {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../images/unchecked.png') no-repeat 0 0;
+}
+#zakaz table input[type=checkbox]:checked + .complex {
+	background: url('../images/checked.png') no-repeat 0 0;
+}
+#zakaz .hr {
+	background-color: #5BC9DA;
+	height: 2px;
+	width: 590px;
+	margin-bottom: 20px;
+}
+#zakaz .bonus {
+	color: #1B77A6;
+	font-size: 18px;
+	height: 26px;
+}
+#zakaz .zakaz-form {
+	height: 42px;
+	width: 590px;
+	border: 2px solid #1693B1;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	padding-left: 20px;
+	line-height: 42px;
+	vertical-align: middle;
+	color: #1B77A6;
+	font-size: 0;
+}
+#zakaz .zakaz-form > label {
+	font-size: 18px;
+	padding-right: 6px;
+	height: 38px;
+	line-height: 38px;
+	vertical-align: middle;
+	display: inline-block;
+}
+#zakaz .zakaz-form > input {
+	width: 460px;
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+#zakaz .options {
+	padding-left: 25px;
+	color: #1B77A6;
+	font-size: 18px;
+	height: 26px;
+	background: url('../images/unchecked.png') no-repeat 0 0;
+}
+#zakaz input[type=radio] {
+	display: none;
+}
+#zakaz .sposob-oplaty {
+	display: inline-block;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #1B77A6;
+	font-size: 18px;
+	line-height: 26px;
+	color: #1B77A6;
+	margin-bottom: 35px;
+	background: url('../images/unchecked.png') no-repeat 0 3px;
+}
+#zakaz input[type=radio]:checked + .sposob-oplaty {
+	background: url('../images/checked.png') no-repeat 0 3px;
+}
+#zakaz #zakaz-submit {
+	display: block;
+	height: 55px;
+	width: 200px;
+	text-align: center;
+	line-height: 55px;
+	vertical-align: middle;
+	color: #FFFFFF;
+	background: #FF2B47;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 18px;
+}
+#zakaz #zakaz-submit:hover {
+	opacity: 0.75;
+}
+#pvz-to-up {
+	color: #1B77A6;
+	padding-left: 24px;
+	background: url('../images/pvz-to-top.png') no-repeat 0 0;
+	position: fixed;
+	bottom: 100px;
+	right: 50px;
+	display: none;
+	cursor: pointer;
+	height: 20px;
+	opacity: 0.75;
+	transition: none;
+}
